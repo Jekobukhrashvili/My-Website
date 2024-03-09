@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+background-image: url(Images/nature2.png);
+background-position: center;
+}
+
+.header {
+  width: 1440px;
+  height: 110px;
+  background-color: rgba(105, 0, 211, 0);
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+  align-items: center;
+  width: 1440px;
+  height: 100px;
+}
+
+.header-div {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+  margin-left: 50px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+.navigation ul li {
+  color: rgb(39, 0, 0);
+  list-style: none;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: "Anta";
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+.navigation ul li:hover {
+  color: rgba(255, 255, 255, 0.637);
+  cursor: pointer;
+  text-shadow: none;
+}
+
+.navigation {
+  display: flex;
+  gap: 50px;
+}
+
+.First-Section {
+  width: 1440px;
+  margin: 0 auto;
+  background-color: rgba(0, 109, 212, 0.055);
+  border-top-right-radius: 300px;
+  border-bottom-right-radius: 5px;
+}
+.Main-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+
+.myimage {
+  width: 100%;
+  height: 100%;
+  border-radius: 250px;
+  opacity: 0.9;
+  box-shadow: 30px 30px 2px rgba(0, 0, 0, 0.50);
+}
+
+.image {
+  width: 550px;
+  margin-left: 50px;
+  margin: 50px 50px;
+
+}
+.About-me {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.About-me h1 {
+  font-size: 45px;
+  color: rgba(5, 5, 146, 0.87);
+  font-family: "Anta";
+  font-weight: bold;
+  text-align: start;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  
+}
+
+.About-me h2 {
+  color: rgb(5, 5, 146, 0.87);
+  font-weight: 600;
+  font-size: 25px;
+  font-family: "Anta";
+  word-spacing: 5px;
+  text-shadow: 2px 2px 10px white;
+}
+
+.About-me h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(5, 5, 146, 0.87);
+  font-family: "Anta";
+  word-spacing: 5px;
+  text-shadow: 2px 2px 10px white;
+}
+
+.About-me p {
+  font-size: 30px;
+  font-family: "Anta";
+  font-weight: bold;
+  color: rgba(190, 4, 97, 0.89);
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.buttons {
+  display: flex;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.portfolio {
+  background-color: rgba(7, 236, 129, 0.288);
+  padding: 12px 25px 12px 25px;
+  font-size: 21px;
+  font-weight: 500;
+  font-family: "Anta";
+  border-radius: 10px;
+  color: rgb(20, 0, 204, 0.829);
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  box-shadow: 9px 10px 5px rgb(0, 0, 0, 0.70);
+}
+
+.gallery {
+  padding: 12px 25px 12px 25px;
+  background-color: rgba(20, 0, 204, 0.479);
+  color: rgb(7, 236, 129);
+  font-size: 21px;
+  font-family: "Anta";
+  font-weight: 500;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  box-shadow: 9px 10px 5px rgb(0, 0, 0, 0.70);
+}
+
+.hire-me:hover,
+.portfolio:hover,
+.gallery:hover {
+  border-color: black;
+  text-decoration: underline rgb(0, 0, 0);
+  cursor: pointer;
+  border-width: 1px;
+}
+
+.hire-me {
+  padding: 12px 25px 12px 25px;
+  font-size: 21px;
+  font-family: "Anta";
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  background-color: rgba(137, 43, 226, 0.521);
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 1px;
+  border-radius: 10px;
+  box-shadow: 9px 10px 5px rgb(0, 0, 0, 0.70);
+}
+
+.span-start {
+  color: black;
+  text-decoration: underline;
+}
