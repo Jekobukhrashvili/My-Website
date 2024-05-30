@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  background-image: url(Images/backgr.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.About-me {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.About-me h1 {
+  font-size: 45px;
+  color: rgba(5, 5, 146, 0.87);
+  font-family: "Anta";
+  font-weight: bold;
+  text-align: start;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.About-me h2 {
+  color: rgb(5, 5, 146, 0.87);
+  font-weight: 600;
+  font-size: 25px;
+  font-family: "Anta";
+  word-spacing: 5px;
+  text-shadow: 2px 2px 10px white;
+}
+
+.About-me h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(5, 5, 146, 0.87);
+  font-family: "Anta";
+  word-spacing: 5px;
+  text-shadow: 2px 2px 10px white;
+}
+
+.About-me p {
+  font-size: 30px;
+  font-family: "Anta";
+  font-weight: bold;
+  color: rgba(190, 4, 97, 0.89);
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.About-me a {
+  text-decoration: none;
+  background-color: rgba(7, 236, 129, 0.288);
+  padding: 12px 25px 12px 25px;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 800;
+  font-family: "Anta";
+  border-radius: 10px;
+  color: rgb(20, 0, 204, 0.829);
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  box-shadow: 9px 10px 5px rgb(0, 0, 0, 0.7);
+}
+
+.About-me a:hover {
+  border-style: solid;
+  border-color: rgb(36, 90, 207);
+  text-decoration: underline rgb(0, 0, 0);
+  cursor: pointer;
+  border-width: 1px;
+  text-decoration: none;
+  color: rgba(30, 0, 255, 0.829);
+}
